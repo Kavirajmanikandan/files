@@ -12,13 +12,10 @@ df = pd.read_csv(path)
 
 print(df.head())
 
-# Get an overview of the dataset
 
-print(df.info())
 
-# Summary statistics of numerical columns
+olumns
 
-print(df.describe())
 
 # Most successful teams (based on number of wins)
 
@@ -34,9 +31,7 @@ average_runs_per_team = df.groupby('batting_team')['total_runs'].mean()
 
 # Bowling performance analysis
 
-average_wickets_per_team = df.groupby('bowling_team')['player_out'].mean()
+average_wickets_per_team = df.groupby('bowling ('bowling_team')['player_out'].mean_team')['player_out'].mean()
 
-# Toss outcome analysis
 
-toss_outcome = df['toss_decision'].value_count
 
